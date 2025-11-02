@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modern bakery</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
@@ -13,27 +14,27 @@
           <img src="./images/logo.svg" alt="logo" />
         </a>
         <ul>
-          <li><a href="#">Our traditions</a></li>
-          <li><a href="#">Chefs</a></li>
-          <li><a href="#">Formats</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a class="link" href="#traditions-section">Our traditions</a></li>
+          <li><a href="#chefs-section">Chefs</a></li>
+          <li><a href="#formats-section">Formats</a></li>
+          <li><a href="#contacts-section">Contacts</a></li>
         </ul>
       </nav>
-      <button type="button">Request a call</button>
+      <button type="button" class="button">Request a call</button>
     </header>
 
     <main>
       <section>
-        <h1>Modern bakery</h1>
+        <h1 class="hero-title"><span class="accent">Modern</span> bakery</h1>
       </section>
 
-      <section>
-        <ul>
+      <section id="traditions-section">
+        <ul class="advantages-list">
           <li>High market demand</li>
           <li>Affordable formats</li>
           <li>Experienced management team</li>
         </ul>
-        <h2>New format of traditions</h2>
+        <h2 class="section-title">New format of traditions</h2>
         <p>
           <span>Shop Bakery</span> is a bakery that combines the finest traditions of baking,
           preserving the authentic taste of classic pastries and the natural quality of ingredients.
@@ -46,8 +47,8 @@
         <img src="./images/baker-man.jpg" alt="Baker with fresh bread" />
       </section>
 
-      <section>
-        <h2>Our best chefs</h2>
+      <section id="chefs-section">
+        <h2 class="section-title">Our best <span class="accent">chefs</span></h2>
         <ul>
           <li>
             <article>
@@ -74,8 +75,8 @@
         </ul>
       </section>
 
-      <section>
-        <h2>Formats</h2>
+      <section id="formats-section">
+        <h2 class="section-title">Formats</h2>
         <ul>
           <li>
             <article>
@@ -95,8 +96,17 @@
         </ul>
       </section>
 
-      <section>
-        <h2>Join the bakery network</h2>
+      <section id="contacts-section">
+        <h2 class="section-title">Join the bakery network</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9493.540245053862!2d30.47724970941184!3d50.44685709076792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2sSichovykh%20Striltsiv%20St%2C%2054%2C%20Kyiv%2C%20Ukraine%2C%2002000!5e0!3m2!1sen!2suk!4v1761931388551!5m2!1sen!2suk"
+          width="400"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </section>
     </main>
 
@@ -106,21 +116,21 @@
           <img src="./images/logo.svg" alt="logo" />
         </a>
         <ul>
-          <li><a href="#">Our traditions</a></li>
-          <li><a href="#">Chefs</a></li>
-          <li><a href="#">Formats</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a href="#traditions-section">Our traditions</a></li>
+          <li><a href="#chefs-section">Chefs</a></li>
+          <li><a href="#formats-section">Formats</a></li>
+          <li><a href="#contacts-section">Contacts</a></li>
         </ul>
       </nav>
       <address>
         <ul>
-          <li><a href="tel:+4474001064">+44 7400 1064</a></li>
+          <li><a href="tel:+380960000007">+38 (096) 000 00 07</a></li>
           <li>
             <a href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</a>
           </li>
           <li>
-            <a href="https://maps.app.goo.gl/MoykRRgVuT8R3rJQA" target="_blank">
-              64 Lower Richmond Rd., London, SW15 1LL
+            <a href="https://maps.app.goo.gl/Z76AQ4hYdY7smrtS6" target="_blank">
+              Sichovykh Striltsiv St, 54, Kyiv, Ukraine
             </a>
           </li>
           <li>
@@ -131,7 +141,7 @@
           </li>
         </ul>
         <a href="#" target="_blank">Privacy Policy</a>
-        <p>© 2025 Shop Bakery. All rights reserved.</p>
+        <p>&copy; 2025 Shop Bakery. All rights reserved.</p>
       </address>
     </footer>
   </body>
