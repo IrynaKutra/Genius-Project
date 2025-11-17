@@ -1,0 +1,36 @@
+@import './utilities/fonts';
+@import './utilities/variables';
+@import './base';
+@import './utilities/texts';
+@import './utilities/utilities';
+
+/* @import './utilities/mixins'; */
+/* .circle {
+  @include circle(100px, 100px, white);
+}
+
+.circle-big {
+  @include circle(200px, 200px, red);
+} */
+
+@import './components/buttons';
+@import './components/carousel-button';
+@import './components/chef-card';
+@import './components/format-card';
+@import './components/input';
+@import './components/links';
+
+@import './layouts/advantages-section';
+@import './layouts/chefs-section';
+@import './layouts/contact-section';
+@import './layouts/container';
+@import './layouts/footer';
+@import './layouts/form-terms';
+@import './layouts/formats-section';
+@import './layouts/header';
+@import './layouts/hero-section';
+@import './layouts/modal';
+@import './layouts/section';
+@import './layouts/traditions-section';
+
+/*# sourceMappingURL=main.css.map */
